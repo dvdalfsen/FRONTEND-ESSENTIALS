@@ -1,26 +1,73 @@
+body {
+    background-color: black;
+}
 
-.container{
-    display: flex;
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Navbartje {
+    background-color: #292929;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Navbartje2 {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 10px
     
 }
 
-.col{
-    margin: 2px;
+nav {
+    text-align: center;
 }
 
-.button{
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    margin: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+li {
+    display: inline;
+    padding: 10px;
 }
 
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
+li a {
+    color: orange;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+
+li a:hover {
+    color: white;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+table {
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.tabel {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: orange;
+    font-size: 40px;
+}
+
+th {
+    color: white;
+    padding: 10px;
+}
+
+td {
+    color: white;
 }

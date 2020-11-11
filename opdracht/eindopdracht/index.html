@@ -1,38 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="container status">
-        
-    </div>
-    <div class="container">
-        <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="Navbartje2"></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Producten</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        <div class="Navbartje">
+            <nav>
+                <ul>
+                    <li><a href="../Vlaggen/frankrijk/index.html">Frankrijk</a></li>
+                    <li><a href="../Vlaggen/1-polen/polen.html">Polen</a></li>
+                    <li><a href="../Vlaggen/nederland/index.html">Nederland</a></li>
+                    <li><a href="../Vlaggen/benin/index.html">Benin</a></li>
+                    <li><a href="../Vlaggen/botswana/index.html">Botswana</a></li>
+                    <li><a href="../Vlaggen/chile/index.html">Chili</a></li>
+                    <li><a href="../Vlaggen/colombia/index.html">Colombia</a></li>
+                    <li><a href="../Vlaggen/denemarken/index.html">Denemarken</a></li>
+                    <li><a href="../Vlaggen/noorwegen/index.html">Noorwegen</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="col">
-        </div>
-        <div class="response"></div>
+        
+    <div class="tabel">
+        <div id="kopje1"></div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
-
-
-
-        
-        
-    </script>
-</body>
+    <table>
+        <thead>
+            <tr>
+                <th>Voornaam</th>
+                <th>Achternaam</th>
+                <th>Email</th>
+                <th>Woonplaats</th>
+                <th>Leeftijd</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h3 id="id01"></h3></td>
+                <td><h3 id="id02"></h3></td>
+                <td><h3 id="id03"></h3></td>
+                <td><h3 id="id04"></h3></td>
+                <td><h3 id="id05"></h3></td>
+            </tr>
+        </tbody>
+        </table>
+    <script src="script.js"></script>
+    </body>
 </html>
+
