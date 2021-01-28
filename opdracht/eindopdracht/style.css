@@ -6,7 +6,7 @@ body {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 .Navbartje {
@@ -22,9 +22,9 @@ body {
     padding-bottom: 10px
     
 }
-
+b  
 nav {
-    text-align: center;
+    text-align: inline;
 }
 
 li {
@@ -40,7 +40,7 @@ li a {
 
 
 li a:hover {
-    color: white;
+    color: rgb(128, 50, 50);
     background-color: orange;
     border-radius: 100px;
     padding: 10px;
@@ -50,7 +50,7 @@ li a:hover {
 table {
     margin-left: 100px;
     margin-top: 10px;
-    background-color: #292929;
+    background-color: #ceb4b4;
     padding: 10px;
     border-radius: 10px;
     text-align: left;
